@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{EA9F7595-9BF5-41E4-BA16-D1A506C07787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{C32487AF-F1E4-41A7-90B5-E462ACAF8655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeignCashMachine", "Adapter\ForeignCashMachine\ForeignCashMachine.csproj", "{694AB506-1381-4C65-B313-8C1D1E6A4F62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{EA9F7595-9BF5-41E4-BA16-D1A506C07787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9F7595-9BF5-41E4-BA16-D1A506C07787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9F7595-9BF5-41E4-BA16-D1A506C07787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32487AF-F1E4-41A7-90B5-E462ACAF8655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32487AF-F1E4-41A7-90B5-E462ACAF8655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32487AF-F1E4-41A7-90B5-E462ACAF8655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32487AF-F1E4-41A7-90B5-E462ACAF8655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694AB506-1381-4C65-B313-8C1D1E6A4F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694AB506-1381-4C65-B313-8C1D1E6A4F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694AB506-1381-4C65-B313-8C1D1E6A4F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694AB506-1381-4C65-B313-8C1D1E6A4F62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
